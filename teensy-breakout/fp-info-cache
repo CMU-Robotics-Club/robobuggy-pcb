@@ -1,4 +1,4 @@
-24450854450823828
+24466472697545838
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54978,6 +54978,34 @@ BNO085
 12
 12
 Custom
+CONN_1988817
+
+1988817 
+0
+3
+3
+Custom
+CONN_1988820
+
+1988820 
+0
+4
+4
+Custom
+CONN_1988833
+
+1988833 
+0
+5
+5
+Custom
+CONN_1988956
+
+1988956 
+0
+2
+2
+Custom
 D2PAKSMD_2L_STD-ST_STM
 
 L7805CD2T-TR 
@@ -54999,6 +55027,13 @@ L7805CD2T-TR
 3
 3
 Custom
+DCU0008A_M
+
+LSF0102DCUR 
+0
+8
+8
+Custom
 IRL530NSTRLPBF_INF
 
 IRL530NSTRLPBF 
@@ -55019,6 +55054,34 @@ IRL530NSTRLPBF
 0
 3
 3
+Custom
+PHOENIX_1989010
+
+
+0
+8
+8
+Custom
+RFM69HCW Adafruit Breakout
+
+
+0
+14
+14
+Custom
+SOIC8_4X5_INR
+
+ICL7667CBAZA-TDKR 
+0
+8
+8
+Custom
+SW3_7101MD9AQE_CNK
+
+7101MD9AQE 
+0
+5
+5
 Custom
 TO252DPAK_DIO
 
