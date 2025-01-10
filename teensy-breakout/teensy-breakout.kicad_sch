@@ -13106,7 +13106,7 @@
 		)
 		(uuid "62cfea86-38ca-4b0a-906f-ff4f406e1499")
 	)
-	(label "J0_6"
+	(label "LIM_L"
 		(at 402.59 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13282,7 +13282,7 @@
 		)
 		(uuid "806b7972-5e1e-4c8a-ba83-26c72aa1bf25")
 	)
-	(label "J0_7"
+	(label "LIM_R"
 		(at 402.59 102.87 0)
 		(fields_autoplaced yes)
 		(effects
