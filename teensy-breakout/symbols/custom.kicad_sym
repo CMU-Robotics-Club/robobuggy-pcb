@@ -3859,6 +3859,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at -15.24 -12.7 0)
+				(length 2.54)
+				(name "RTK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin unspecified line
 				(at -15.24 -15.24 0)
 				(length 2.54)
@@ -3869,7 +3887,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3887,7 +3905,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3905,7 +3923,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3923,7 +3941,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3941,7 +3959,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3959,7 +3977,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3977,7 +3995,7 @@
 						)
 					)
 				)
-				(number "16"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3995,7 +4013,7 @@
 						)
 					)
 				)
-				(number "17"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4007,24 +4025,6 @@
 				(at 13.97 2.54 180)
 				(length 2.54)
 				(name "RX2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 13.97 5.08 180)
-				(length 2.54)
-				(name "TX2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4057,6 +4057,24 @@
 					)
 				)
 			)
+			(pin output line
+				(at 13.97 5.08 180)
+				(length 2.54)
+				(name "TX2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 13.97 7.62 180)
 				(length 2.54)
@@ -4067,7 +4085,7 @@
 						)
 					)
 				)
-				(number "20"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4085,7 +4103,7 @@
 						)
 					)
 				)
-				(number "21"
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4103,7 +4121,7 @@
 						)
 					)
 				)
-				(number "22"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4130,24 +4148,6 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 0 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "GND"
@@ -4166,6 +4166,24 @@
 				)
 			)
 			(pin power_in line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "3V3"
@@ -4175,7 +4193,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4193,7 +4211,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4211,7 +4229,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4223,24 +4241,6 @@
 				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "FENCE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -12.7 0)
-				(length 2.54)
-				(name "RTK"
 					(effects
 						(font
 							(size 1.27 1.27)

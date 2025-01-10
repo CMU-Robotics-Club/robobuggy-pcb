@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "1988817 ")
 	(property "Reference" "REF**"
-		(at -5.075184 0 0)
+		(at -5 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "da45e79e-72bf-408e-9d86-ce36d8c51a6d")
@@ -232,7 +232,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at -10.150368 0)
-		(size 1.8034 1.8034)
+		(size 2.2 2.2)
 		(drill 1.2954)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -240,7 +240,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at -5.150368 0)
-		(size 1.8034 1.8034)
+		(size 2.2 2.2)
 		(drill 1.2954)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -248,7 +248,7 @@
 	)
 	(pad "3" thru_hole circle
 		(at -0.150368 0)
-		(size 1.8034 1.8034)
+		(size 2.2 2.2)
 		(drill 1.2954)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
