@@ -12639,6 +12639,66 @@
 		)
 		(uuid f181b7ec-1f4b-4ef0-953e-e6a6409a406b)
 	)
+	(text "TODO: confirm the RC system uses 5V logic\n(pretty sure it uses 3v3)"
+		(exclude_from_sim no)
+		(at 53.34 263.906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28df5684-59d6-47f7-a8a0-b3bfe8600fd0")
+	)
+	(text "Brake solenoid control"
+		(exclude_from_sim no)
+		(at 112.776 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2cd6de68-f388-4d73-a346-5c07c839d64f")
+	)
+	(text "UART <--> USB for communication with computer"
+		(exclude_from_sim no)
+		(at 219.964 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a724a50-b14d-407e-841f-f6f516743fcb")
+	)
+	(text "IMU"
+		(exclude_from_sim no)
+		(at 186.69 164.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ab5de3e-b85f-4920-ac34-32b8cb904f9f")
+	)
+	(text "5V GPIO"
+		(exclude_from_sim no)
+		(at 233.934 375.412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d3d7f18-58d3-4db9-bb8a-324778b3daa0")
+	)
+	(text "Teensy"
+		(exclude_from_sim no)
+		(at 357.632 253.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ec7dcfa-1870-411e-bf61-1e63aaaee37d")
+	)
 	(text "PUL_PLUS"
 		(exclude_from_sim no)
 		(at 216.408 177.038 0)
@@ -12648,6 +12708,46 @@
 			)
 		)
 		(uuid "5f31cc33-9053-4fb4-adee-29dbd3d6fc8f")
+	)
+	(text "3V3 GPIO, I2C1, SPI0, SPI1, power LED"
+		(exclude_from_sim no)
+		(at 344.678 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c8a77f4-1b97-4c1b-8505-4b4c78e32120")
+	)
+	(text "Closed loop stepper motor control"
+		(exclude_from_sim no)
+		(at 228.6 207.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b466aa4-8661-40c4-bc82-5f8605da54a5")
+	)
+	(text "Power regulation & filtering caps"
+		(exclude_from_sim no)
+		(at 107.442 103.886 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "910a88c7-edcf-42f8-a7df-95daad8fe007")
+	)
+	(text "Limit switch connector"
+		(exclude_from_sim no)
+		(at 233.934 164.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "996c4317-f051-4e62-b164-6461f50121b0")
 	)
 	(text "DIR_PLUS"
 		(exclude_from_sim no)
@@ -12659,9 +12759,58 @@
 		)
 		(uuid "a107b060-df32-423f-b46c-9da8923535e8")
 	)
+	(text "433 MHz radio"
+		(exclude_from_sim no)
+		(at 237.744 253.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b652a709-9c44-4fb1-a64a-2f0df6990ca8")
+	)
+	(text "Adafruit Feather (GPS RTK base station correction data)"
+		(exclude_from_sim no)
+		(at 91.44 252.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3cdee28-75be-4f91-8221-1a9081c3c0d2")
+	)
+	(text "GPS"
+		(exclude_from_sim no)
+		(at 115.316 376.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dad8293d-42ff-41b1-be45-c371d0d0a193")
+	)
+	(text "Serial communication with RC module for communication with TX12 controller"
+		(exclude_from_sim no)
+		(at 87.376 313.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed0d86ca-7f6e-4ef4-a9b1-f1028fa880a3")
+	)
+	(text "Power & ground connectors"
+		(exclude_from_sim no)
+		(at 45.212 253.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff207519-427f-4a7d-a149-8e7e4e58e2d7")
+	)
 	(label "J1_4"
 		(at 346.71 195.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12672,7 +12821,6 @@
 	)
 	(label "J0_4"
 		(at 294.64 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12683,7 +12831,6 @@
 	)
 	(label "PUL"
 		(at 137.16 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12694,7 +12841,6 @@
 	)
 	(label "J0_2"
 		(at 294.64 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12705,7 +12851,6 @@
 	)
 	(label "UART1 RX"
 		(at 218.44 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12716,7 +12861,6 @@
 	)
 	(label "MOSI0"
 		(at 279.4 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12727,7 +12871,6 @@
 	)
 	(label "I2C0_SDA"
 		(at 280.67 48.26 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12738,7 +12881,6 @@
 	)
 	(label "NP1"
 		(at 146.05 289.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12749,7 +12891,6 @@
 	)
 	(label "I2C1_SDA"
 		(at 304.8 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12760,7 +12901,6 @@
 	)
 	(label "J0_1"
 		(at 294.64 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12771,7 +12911,6 @@
 	)
 	(label "PUL"
 		(at 346.71 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12782,7 +12921,6 @@
 	)
 	(label "I2C0_SDA"
 		(at 350.52 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12793,7 +12931,6 @@
 	)
 	(label "NP1"
 		(at 273.05 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12804,7 +12941,6 @@
 	)
 	(label "SCK1"
 		(at 275.59 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12815,7 +12951,6 @@
 	)
 	(label "SCK0"
 		(at 350.52 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12826,7 +12961,6 @@
 	)
 	(label "J1_5"
 		(at 294.64 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12837,7 +12971,6 @@
 	)
 	(label "MOSI0"
 		(at 176.53 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12848,7 +12981,6 @@
 	)
 	(label "LIM_R"
 		(at 234.95 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12859,7 +12991,6 @@
 	)
 	(label "RF_G0"
 		(at 349.25 208.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12870,7 +13001,6 @@
 	)
 	(label "DIR"
 		(at 137.16 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12881,7 +13011,6 @@
 	)
 	(label "I2C0_SCL"
 		(at 151.13 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12892,7 +13021,6 @@
 	)
 	(label "RC_RX"
 		(at 275.59 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12903,7 +13031,6 @@
 	)
 	(label "SCK0"
 		(at 176.53 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12914,7 +13041,6 @@
 	)
 	(label "UART1 RTS"
 		(at 273.05 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12925,7 +13051,6 @@
 	)
 	(label "MOSI1"
 		(at 275.59 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12936,7 +13061,6 @@
 	)
 	(label "NP4_5V"
 		(at 203.2 344.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12947,7 +13071,6 @@
 	)
 	(label "DIR_MIN"
 		(at 222.25 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12958,7 +13081,6 @@
 	)
 	(label "NP2"
 		(at 273.05 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12969,7 +13091,6 @@
 	)
 	(label "I2C1_SCL"
 		(at 304.8 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12980,7 +13101,6 @@
 	)
 	(label "J1_7"
 		(at 346.71 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12991,7 +13111,6 @@
 	)
 	(label "GPS_RX"
 		(at 119.38 342.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13002,7 +13121,6 @@
 	)
 	(label "J1_1"
 		(at 294.64 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13013,7 +13131,6 @@
 	)
 	(label "GPS_RX"
 		(at 88.9 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13024,7 +13141,6 @@
 	)
 	(label "DIR"
 		(at 346.71 203.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13035,7 +13151,6 @@
 	)
 	(label "I2C1_SDA"
 		(at 270.51 73.66 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13046,7 +13161,6 @@
 	)
 	(label "MOSI1"
 		(at 304.8 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13057,7 +13171,6 @@
 	)
 	(label "I2C1_SDA"
 		(at 350.52 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13068,7 +13181,6 @@
 	)
 	(label "RC_RX"
 		(at 34.29 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13079,7 +13191,6 @@
 	)
 	(label "DIR_MIN"
 		(at 191.77 186.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13090,7 +13201,6 @@
 	)
 	(label "PUL_MIN"
 		(at 191.77 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13101,7 +13211,6 @@
 	)
 	(label "NP2_5V"
 		(at 204.47 294.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13112,7 +13221,6 @@
 	)
 	(label "UART1 TX"
 		(at 273.05 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13123,7 +13231,6 @@
 	)
 	(label "LIM_L"
 		(at 280.67 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13134,7 +13241,6 @@
 	)
 	(label "J1_3"
 		(at 294.64 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13145,7 +13251,6 @@
 	)
 	(label "I2C0_SCL"
 		(at 269.24 48.26 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13156,7 +13261,6 @@
 	)
 	(label "MISO1"
 		(at 304.8 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13167,7 +13271,6 @@
 	)
 	(label "NP3_5V"
 		(at 212.09 322.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13178,7 +13281,6 @@
 	)
 	(label "NP3"
 		(at 144.78 339.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13189,7 +13291,6 @@
 	)
 	(label "UART1 CTS"
 		(at 218.44 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13200,7 +13301,6 @@
 	)
 	(label "NP3"
 		(at 273.05 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13211,7 +13311,6 @@
 	)
 	(label "J1_6"
 		(at 346.71 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13222,7 +13321,6 @@
 	)
 	(label "USB_DP"
 		(at 203.2 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13233,7 +13331,6 @@
 	)
 	(label "MOSI0"
 		(at 304.8 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13244,7 +13341,6 @@
 	)
 	(label "I2C0_SDA"
 		(at 72.39 345.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13255,7 +13351,6 @@
 	)
 	(label "UART1 RX"
 		(at 273.05 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13266,7 +13361,6 @@
 	)
 	(label "J0_6"
 		(at 294.64 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13277,7 +13371,6 @@
 	)
 	(label "UART1 RTS"
 		(at 218.44 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13288,7 +13381,6 @@
 	)
 	(label "LIM_R"
 		(at 280.67 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13299,7 +13391,6 @@
 	)
 	(label "ALM"
 		(at 222.25 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13310,7 +13401,6 @@
 	)
 	(label "J1_3"
 		(at 346.71 198.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13321,7 +13411,6 @@
 	)
 	(label "J0_2"
 		(at 280.67 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13332,7 +13421,6 @@
 	)
 	(label "RF_CS"
 		(at 176.53 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13343,7 +13431,6 @@
 	)
 	(label "NP1_5V"
 		(at 212.09 281.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13354,7 +13441,6 @@
 	)
 	(label "I2C0_SCL"
 		(at 72.39 347.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13365,7 +13451,6 @@
 	)
 	(label "USB_DP"
 		(at 158.75 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13376,7 +13461,6 @@
 	)
 	(label "NP2_5V"
 		(at 212.09 302.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13387,7 +13471,6 @@
 	)
 	(label "LIM_L"
 		(at 234.95 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13398,7 +13481,6 @@
 	)
 	(label "RF_G0"
 		(at 176.53 229.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13409,7 +13491,6 @@
 	)
 	(label "MISO0"
 		(at 279.4 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13420,7 +13501,6 @@
 	)
 	(label "J0_5"
 		(at 280.67 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13431,7 +13511,6 @@
 	)
 	(label "RF_RST"
 		(at 349.25 205.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13442,7 +13521,6 @@
 	)
 	(label "J0_3"
 		(at 280.67 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13453,7 +13531,6 @@
 	)
 	(label "PUL_MIN"
 		(at 222.25 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13464,7 +13541,6 @@
 	)
 	(label "J1_5"
 		(at 346.71 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13475,7 +13551,6 @@
 	)
 	(label "J1_6"
 		(at 294.64 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13486,7 +13561,6 @@
 	)
 	(label "USB_DM"
 		(at 203.2 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13497,7 +13571,6 @@
 	)
 	(label "GPS_TX"
 		(at 88.9 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13508,7 +13581,6 @@
 	)
 	(label "NP3_5V"
 		(at 203.2 339.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13519,7 +13591,6 @@
 	)
 	(label "J0_6"
 		(at 346.71 215.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13530,7 +13601,6 @@
 	)
 	(label "RC_TX"
 		(at 275.59 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13541,7 +13611,6 @@
 	)
 	(label "RF_CS"
 		(at 279.4 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13552,7 +13621,6 @@
 	)
 	(label "I2C1_SCL"
 		(at 350.52 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13563,7 +13631,6 @@
 	)
 	(label "NP2"
 		(at 146.05 294.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13574,7 +13641,6 @@
 	)
 	(label "UART1 TX"
 		(at 218.44 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13585,7 +13651,6 @@
 	)
 	(label "USB_DM"
 		(at 158.75 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13596,7 +13661,6 @@
 	)
 	(label "MISO0"
 		(at 176.53 234.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13607,7 +13671,6 @@
 	)
 	(label "NP1_5V"
 		(at 204.47 289.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13618,7 +13681,6 @@
 	)
 	(label "I2C0_SDA"
 		(at 151.13 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13629,7 +13691,6 @@
 	)
 	(label "NP4"
 		(at 273.05 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13640,7 +13701,6 @@
 	)
 	(label "J0_5"
 		(at 294.64 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13651,7 +13711,6 @@
 	)
 	(label "ALM"
 		(at 349.25 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13662,7 +13721,6 @@
 	)
 	(label "J1_2"
 		(at 294.64 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13673,7 +13731,6 @@
 	)
 	(label "RF_RST"
 		(at 176.53 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13684,7 +13741,6 @@
 	)
 	(label "RC_TX"
 		(at 34.29 297.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13695,7 +13751,6 @@
 	)
 	(label "MISO1"
 		(at 347.98 200.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13706,7 +13761,6 @@
 	)
 	(label "SCK0"
 		(at 304.8 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13717,7 +13771,6 @@
 	)
 	(label "MISO0"
 		(at 304.8 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13728,7 +13781,6 @@
 	)
 	(label "I2C1_SCL"
 		(at 280.67 73.66 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13739,7 +13791,6 @@
 	)
 	(label "J0_4"
 		(at 280.67 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13750,7 +13801,6 @@
 	)
 	(label "BRAKE"
 		(at 21.59 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13761,7 +13811,6 @@
 	)
 	(label "J1_1"
 		(at 346.71 213.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13772,7 +13821,6 @@
 	)
 	(label "SCK1"
 		(at 304.8 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13783,7 +13831,6 @@
 	)
 	(label "BRAKE"
 		(at 349.25 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13794,7 +13841,6 @@
 	)
 	(label "J1_2"
 		(at 346.71 210.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13805,7 +13851,6 @@
 	)
 	(label "J0_3"
 		(at 294.64 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13816,7 +13861,6 @@
 	)
 	(label "GPS_TX"
 		(at 119.38 345.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13827,7 +13871,6 @@
 	)
 	(label "NP4"
 		(at 144.78 344.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13838,7 +13881,6 @@
 	)
 	(label "NP4_5V"
 		(at 212.09 342.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13849,7 +13891,6 @@
 	)
 	(label "UART1 CTS"
 		(at 273.05 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13860,7 +13901,6 @@
 	)
 	(label "J1_4"
 		(at 294.64 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13871,7 +13911,6 @@
 	)
 	(label "J0_1"
 		(at 280.67 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13882,7 +13921,6 @@
 	)
 	(label "J1_7"
 		(at 294.64 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13893,7 +13931,6 @@
 	)
 	(label "I2C0_SCL"
 		(at 350.52 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
