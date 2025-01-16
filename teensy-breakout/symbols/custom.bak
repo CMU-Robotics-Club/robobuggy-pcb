@@ -2076,6 +2076,285 @@
 			)
 		)
 	)
+	(symbol "D36V50Fx"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D36V50Fx_0_1"
+			(rectangle
+				(start -12.7 7.62)
+				(end 13.97 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D36V50Fx_1_1"
+			(pin power_out line
+				(at 3.81 10.16 270)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 10.16 270)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 1.27 10.16 270)
+				(length 2.54)
+				(name "VRP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 2.54 180)
+				(length 2.54)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -3.81 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -1.27 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 10.16 270)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -1.27 10.16 270)
+				(length 2.54)
+				(name "VRP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 2.54 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 10.16 270)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 1.27 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 3.81 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "ICL7667CBAZA-TDKR"
 		(pin_names
 			(offset 0.254)
@@ -3859,6 +4138,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at -15.24 -12.7 0)
+				(length 2.54)
+				(name "RTK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin unspecified line
 				(at -15.24 -15.24 0)
 				(length 2.54)
@@ -3869,7 +4166,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3887,7 +4184,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3905,7 +4202,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3923,7 +4220,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3941,7 +4238,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3959,7 +4256,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3977,7 +4274,7 @@
 						)
 					)
 				)
-				(number "16"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3995,7 +4292,7 @@
 						)
 					)
 				)
-				(number "17"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4007,24 +4304,6 @@
 				(at 13.97 2.54 180)
 				(length 2.54)
 				(name "RX2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 13.97 5.08 180)
-				(length 2.54)
-				(name "TX2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4057,6 +4336,24 @@
 					)
 				)
 			)
+			(pin output line
+				(at 13.97 5.08 180)
+				(length 2.54)
+				(name "TX2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 13.97 7.62 180)
 				(length 2.54)
@@ -4067,7 +4364,7 @@
 						)
 					)
 				)
-				(number "20"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4085,7 +4382,7 @@
 						)
 					)
 				)
-				(number "21"
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4103,7 +4400,7 @@
 						)
 					)
 				)
-				(number "22"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4130,24 +4427,6 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 0 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "GND"
@@ -4166,6 +4445,24 @@
 				)
 			)
 			(pin power_in line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "3V3"
@@ -4175,7 +4472,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4193,7 +4490,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4211,7 +4508,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4223,24 +4520,6 @@
 				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "FENCE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -12.7 0)
-				(length 2.54)
-				(name "RTK"
 					(effects
 						(font
 							(size 1.27 1.27)
