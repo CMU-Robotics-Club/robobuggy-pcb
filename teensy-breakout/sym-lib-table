@@ -3,7 +3,4 @@
   (lib (name "Teensy 4.1")(type "KiCad")(uri "${KIPRJMOD}/symbols/teensy_library-master/teensy.kicad_sym")(options "")(descr ""))
   (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/symbols/custom.kicad_sym")(options "")(descr ""))
   (lib (name "2024-12-15_00-06-57")(type "KiCad")(uri "${KIPRJMOD}/symbols/2024-12-15_00-06-57.kicad_sym")(options "")(descr "")(disabled)(hidden))
-  (lib (name "2024-12-15_00-56-20")(type "KiCad")(uri "/home/cleo/Downloads/IRL530NSTRLPBF/KiCADv6/2024-12-15_00-56-20.kicad_sym")(options "")(descr "")(disabled)(hidden))
-  (lib (name "2024-12-15_01-32-20")(type "KiCad")(uri "/home/cleo/Downloads/MBRD10100CT_13/KiCADv6/2024-12-15_01-32-20.kicad_sym")(options "")(descr "")(disabled)(hidden))
-  (lib (name "2024-12-27_22-27-32")(type "KiCad")(uri "/home/cleo/Downloads/2_screw_term_45/KiCADv6/2024-12-27_22-27-32.kicad_sym")(options "")(descr "")(disabled)(hidden))
 )
