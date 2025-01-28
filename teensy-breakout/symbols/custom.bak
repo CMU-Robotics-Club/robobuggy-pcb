@@ -2123,7 +2123,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "D36V50Fx_0_1"
+		(symbol "D36V50Fx_1_1"
 			(rectangle
 				(start -12.7 7.62)
 				(end 13.97 -3.81)
@@ -2132,11 +2132,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "D36V50Fx_1_1"
 			(pin power_out line
 				(at 3.81 10.16 270)
 				(length 2.54)

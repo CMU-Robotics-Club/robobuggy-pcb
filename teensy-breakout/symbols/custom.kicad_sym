@@ -2153,10 +2153,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -3.81 10.16 270)
+			(pin power_out line
+				(at 1.27 -6.35 90)
 				(length 2.54)
-				(name "VIN"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2172,9 +2172,9 @@
 				)
 			)
 			(pin power_out line
-				(at 1.27 10.16 270)
+				(at 3.81 -6.35 90)
 				(length 2.54)
-				(name "VRP"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2189,10 +2189,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 16.51 2.54 180)
+			(pin power_out line
+				(at 6.35 10.16 270)
 				(length 2.54)
-				(name "PG"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2297,10 +2297,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 6.35 10.16 270)
+			(pin output line
+				(at 16.51 2.54 180)
 				(length 2.54)
-				(name "VOUT"
+				(name "PG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2316,9 +2316,9 @@
 				)
 			)
 			(pin power_out line
-				(at 1.27 -6.35 90)
+				(at 1.27 10.16 270)
 				(length 2.54)
-				(name "GND"
+				(name "VRP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2333,10 +2333,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 3.81 -6.35 90)
+			(pin power_in line
+				(at -3.81 10.16 270)
 				(length 2.54)
-				(name "GND"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
